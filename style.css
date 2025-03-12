@@ -1,0 +1,70 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 20px;
+}
+
+/* header */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+  background-color: #4C4556;
+  margin: 0px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+header a {
+  color: aliceblue;
+}
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* main */
+/* about section + resume section */
+.split { 
+  display: flex;
+  margin: 15px;
+}
+#About { 
+  background-color: #872642;
+  text-align: center;
+  margin: 50px 20px;
+  margin-left:30px;
+  /* color: aliceblue; */
+}
+#About h3{ 
+  color: aliceblue;
+}
+#About p { 
+  color: aliceblue;
+}
+#Resume {
+  background-color: #A0D3F9;
+  text-align: center;
+ margin: 50px 20px;
+ padding: 0.5%;
+}
+#Work {
+  background-color: #F6C026;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-top: 10px ;
+  padding-bottom: 10px ;
+}
+#Contact { 
+  background-color: #E6E7E8;
+  text-align: center;
+}
